@@ -28,9 +28,12 @@ public class HelloController {
         String wysokoscw =wysokosc.getText();
         String gruboscw =grubosc.getText();
 
-    System.out.println(promienw);
-    System.out.println(wysokoscw);
-    System.out.println(gruboscw);
+        double dpromienw = Double.parseDouble(promienw);
+        double dwysokoscw = Double.parseDouble(wysokoscw);
+        double dgruboscw = Double.parseDouble(gruboscw);
 
+   if(dpromienw <= 0 || dwysokoscw <= 0 || dgruboscw <= 0){
+       System.out.printf("Test");
     }
+}
 }
