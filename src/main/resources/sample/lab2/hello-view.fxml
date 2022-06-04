@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -11,5 +12,8 @@
             <Font name="Calibri Bold Italic" size="18.0" />
          </font>
       </Button>
+      <TextField fx:id="promien" layoutX="14.0" layoutY="66.0" promptText="Promień" />
+      <TextField fx:id="wysokosc" layoutX="226.0" layoutY="66.0" promptText="Wysokość" />
+      <TextField fx:id="grubosc" layoutX="437.0" layoutY="66.0" promptText="Grubość" />
    </children>
 </AnchorPane>
