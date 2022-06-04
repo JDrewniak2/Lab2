@@ -15,7 +15,11 @@ public class HelloController {
         welcomeText.setText("Welcome to JavaFX Application!");
     }
 
-    public void onBntAction(ActionEvent actionEvent) {
+    int clickCounter = 0;
 
+    public void onBntAction(ActionEvent actionEvent) {
+    System.out.println("Klinknietcie nr "+ ++clickCounter);
+    if (clickCounter == 1)
+        bntMain.setText("I jeszcze raz");
     }
 }
